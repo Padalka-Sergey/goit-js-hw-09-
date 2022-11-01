@@ -16,3 +16,31 @@ img {
   display: block;
   max-width: 100%;
 }
+
+body > button {
+  cursor: pointer;
+}
+
+.no-active {
+  cursor: default;
+  color: darkgrey;
+  background-color: whitesmoke;
+  /* outline: transparent; */
+  border: 1px solid grey;
+}
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.field .value {
+  font-size: 40px;
+}
